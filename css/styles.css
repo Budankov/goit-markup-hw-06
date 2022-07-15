@@ -719,11 +719,9 @@ ol {
   left: 50%;
   transform: translate(-50%, -50%);
   transition: transform var(--transition-duration);
-
   min-width: 528px;
   min-height: 581px;
-  padding: 25px;
-
+  padding: 40px;
   background: #FFFFFF;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -793,17 +791,8 @@ ol {
 .form-input {
   outline: none;
   border: var(--input-border);
+  height: 40px;
   padding: 11px 0px 11px 42px;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: border-color var(--transition-duration);
-}
-
-.form-textarea {
-  resize: none;
-  padding: 12px 16px;
-  outline: none;
-  border: var(--input-border);
   border-radius: 4px;
   cursor: pointer;
   transition: border-color var(--transition-duration);
@@ -845,6 +834,7 @@ ol {
 
 .form-textarea {
   resize: none;
+  height: 120px;
   padding: 12px 16px;
   outline: none;
   border: var(--input-border);
